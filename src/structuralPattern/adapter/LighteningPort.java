@@ -1,5 +1,5 @@
 package structuralPattern.adapter;
 
-public interface Target {
+public interface LighteningPort {
     void operation();
 }
