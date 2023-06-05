@@ -10,6 +10,8 @@ import java.util.Random;
  * 공통적인 인스턴스를 많이 생성해야되며, 공통적인 부분은 재사용이 가능한경우
  * application 메모리 사용량을 줄일 수 있음.
  *
+ * 공통적인 부분과 부가적인 부분을 분리해 다른 클래스에 작성한뒤
+ * 공통적인 부분을 재사용한다.
  */
 public class Main {
     public static void main(String[] args) {
